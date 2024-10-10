@@ -1,0 +1,22 @@
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+
+        // Adding elements
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+
+        // Accessing elements
+        System.out.println("First element: " + list.get(0));
+
+        // Removing an element
+        list.remove("Banana");
+
+        // Displaying all elements
+        System.out.println("Elements in ArrayList: " + list);
+    }
+}
